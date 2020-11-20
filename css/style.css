@@ -1,0 +1,123 @@
+/* *{
+   box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    position: relative;
+    min-height: 1px;
+}
+.bg{
+      max-height: 100vh;
+      padding: 60px 15px;
+      background: url('../images/bg.jpg');
+      background-size: cover;
+      background-repeat: no-repeat; 
+} 
+.bg .card{
+    width: 25%;
+    float: left;
+    padding: 0px 15px;
+}
+.bg .card .box{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.658); */
+    /* border-radius: 5px; */
+/* }
+.bg .card .box img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+.bg .card .box h4{
+    font-size: 20px;
+    margin: 15px 0px 10px;
+    text-align: center;
+    font-weight: 700;
+}
+.bg .card .box h5{
+    font-size: 16px;
+    color: rgba(0, 0, 128, 0.548);
+    text-align: center;
+    margin: 0 0 10px;
+}
+.bg .card .box p{
+    color: rgb(82, 76, 76);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    padding: 0px 20px;
+}
+.bg .card .box .social{
+         color: gray;
+} */
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ececec;
+}
+.bg{
+    height: 80vh;
+    background: url('../images/bg2.jpg');
+    background-position: -200px -180px;
+}
+.content{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    /* margin: 15px; */
+    padding: px;
+}
+.member img{
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    /* top: -135px; */
+}
+.member{
+    background: rgba(255, 255, 255, 0.863);
+    width: 300px;
+    margin: 0 3px;
+    text-align: center;
+}
+.member h4{
+    text-transform: uppercase;
+    /* margin-top: -100px; */
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+.member h5{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 128, 0.623);
+
+
+}
+.member .social i{
+     font-size: 120%;
+     padding: 10px;
+     transition: 0.5s;
+     color: rgba(128, 128, 128, 0.719);
+     padding-top: 25px;
+}
