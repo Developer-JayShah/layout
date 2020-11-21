@@ -10,9 +10,12 @@ body{
     background: #ececec;
 }
 .bg{
+    width: 100%;
     height: 80vh;
     background: url('../images/bg2.jpg');
-    background-position: -200px -180px;
+    background-position: 0px -150px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .content{
     position: relative;
